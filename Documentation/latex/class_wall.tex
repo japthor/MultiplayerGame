@@ -1,0 +1,55 @@
+\hypertarget{class_wall}{}\section{Wall Class Reference}
+\label{class_wall}\index{Wall@{Wall}}
+Inheritance diagram for Wall\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_wall}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wall_a9a2992f2b533e1c160513d1e719f920c}\label{class_wall_a9a2992f2b533e1c160513d1e719f920c}} 
+\hyperlink{class_wall_a9a2992f2b533e1c160513d1e719f920c}{$\sim$\+Wall} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wall_a4bf1b54a7c78b0d8f474fd6bb5facbf5}\label{class_wall_a4bf1b54a7c78b0d8f474fd6bb5facbf5}} 
+\hyperlink{class_wall_a4bf1b54a7c78b0d8f474fd6bb5facbf5}{Wall} (\hyperlink{struct_vec2}{Vec2} position, \hyperlink{struct_vec2}{Vec2} scale, Body\+Type type, float32 density, float32 friction, char $\ast$texture, \hyperlink{struct_vec2}{Vec2} sprite\+Origin)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wall_a805d3f6cd3542b644c76cda032a7e167}\label{class_wall_a805d3f6cd3542b644c76cda032a7e167}} 
+virtual void \hyperlink{class_wall_a805d3f6cd3542b644c76cda032a7e167}{Init} () override
+\begin{DoxyCompactList}\small\item\em Init. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wall_a8e691c9f4d55ad0b2acce5a1faf1b4ae}\label{class_wall_a8e691c9f4d55ad0b2acce5a1faf1b4ae}} 
+virtual void \hyperlink{class_wall_a8e691c9f4d55ad0b2acce5a1faf1b4ae}{Input} () override
+\begin{DoxyCompactList}\small\item\em Input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wall_aca64035887ce9058e8cc71be0042d564}\label{class_wall_aca64035887ce9058e8cc71be0042d564}} 
+virtual void \hyperlink{class_wall_aca64035887ce9058e8cc71be0042d564}{Update} () override
+\begin{DoxyCompactList}\small\item\em Update. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_wall_a5a6c81f003e285ab96119d1aa983b82d}{Collision} (\hyperlink{class_object}{Object} $\ast$instigator) override
+\item 
+\mbox{\Hypertarget{class_wall_a6a1adf55f3ba0a2f0a878c03661eec0b}\label{class_wall_a6a1adf55f3ba0a2f0a878c03661eec0b}} 
+virtual Define\+Type \hyperlink{class_wall_a6a1adf55f3ba0a2f0a878c03661eec0b}{get\+Define\+Type} () override
+\begin{DoxyCompactList}\small\item\em Type of \hyperlink{class_object}{Object}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wall_a5a6c81f003e285ab96119d1aa983b82d}\label{class_wall_a5a6c81f003e285ab96119d1aa983b82d}} 
+\index{Wall@{Wall}!Collision@{Collision}}
+\index{Collision@{Collision}!Wall@{Wall}}
+\subsubsection{\texorpdfstring{Collision()}{Collision()}}
+{\footnotesize\ttfamily virtual void Wall\+::\+Collision (\begin{DoxyParamCaption}\item[{\hyperlink{class_object}{Object} $\ast$}]{instigator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Collision with other objects 
+\begin{DoxyParams}{Parameters}
+{\em instigator} & Objects name to collide with. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_object_a0af60ea226dcb885e69483452d34a47a}{Object}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Multiplayer/include/wall.\+h\end{DoxyCompactItemize}

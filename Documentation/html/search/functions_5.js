@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['getdefinetype',['getDefineType',['../class_coin.html#af2b1a914f49d5fcaf5b2c1ce74d5b065',1,'Coin::getDefineType()'],['../class_ground.html#a90acab6f237d91fea1e5ff1558dc5365',1,'Ground::getDefineType()'],['../class_net_player.html#ac07584f3a2ece47815aaa863567865cf',1,'NetPlayer::getDefineType()'],['../class_object.html#a9ebf9ef807739f25a04711b90eb82176',1,'Object::getDefineType()'],['../class_platform.html#a4c4b277e82cf60185806779f7bdc01ab',1,'Platform::getDefineType()'],['../class_player.html#acdc10d7536a824e02d72d5a5b77875b1',1,'Player::getDefineType()'],['../class_spike_box.html#a55e11ae1fdb92e34e384dc4ee00cd805',1,'SpikeBox::getDefineType()'],['../class_wall.html#a6a1adf55f3ba0a2f0a878c03661eec0b',1,'Wall::getDefineType()']]],
+  ['getgameovercongratulationstext',['GetGameOverCongratulationsText',['../class_scene.html#a914f803fcc95618fb7b30ce67ec7da43',1,'Scene']]],
+  ['getgameoverlosername',['GetGameOverLoserName',['../class_scene.html#afd80687a6bf3f8324945d8c911986b8f',1,'Scene']]],
+  ['getgameoverlosernametext',['GetGameOverLoserNameText',['../class_scene.html#aa2edffc8f2f4a04b033e4ee9f46fb618',1,'Scene']]],
+  ['getgameoverlosetext',['GetGameOverLoseText',['../class_scene.html#ac0459bb78a21a66f041f1d2ca4be2180',1,'Scene']]],
+  ['getgameoverlosewinnertext',['GetGameOverLoseWinnerText',['../class_scene.html#a783b5b7ba01a4acc1484cc1536c7ecd8',1,'Scene']]],
+  ['getgameovertitle',['GetGameOverTitle',['../class_scene.html#afabdeb9a701ec252fe30e9da5b112f28',1,'Scene']]],
+  ['getgameoverwinname',['GetGameOverWinName',['../class_scene.html#ac15d67d5b428ba39750e5f93e823b285',1,'Scene']]],
+  ['getgameoverwinnernametext',['GetGameOverWinnerNameText',['../class_scene.html#af4e7a704107a6a2a2f2fc272b74e9c7a',1,'Scene']]],
+  ['getgameoverwintext',['GetGameOverWinText',['../class_scene.html#a798247e1af7411704abbc1ff37e3cc90',1,'Scene']]],
+  ['getingamenametext',['GetInGameNameText',['../class_scene.html#ae0e6d7336865ab34f7bf7dfcfbf7ec8a',1,'Scene']]],
+  ['getingameotheruserspointstext1',['GetInGameOtherUsersPointsText1',['../class_scene.html#a6310c6c3e49cee3e2a95b2348a502411',1,'Scene']]],
+  ['getingameotheruserspointstext2',['GetInGameOtherUsersPointsText2',['../class_scene.html#a7ca8a4fd01af145d9bdf159832aeb7a6',1,'Scene']]],
+  ['getingameotheruserspointstext3',['GetInGameOtherUsersPointsText3',['../class_scene.html#aef2f52b7403879bf76ddb4d614249960',1,'Scene']]],
+  ['getingameotheruserspointstext4',['GetInGameOtherUsersPointsText4',['../class_scene.html#ad0dd362ee307861e9172d82e9743056e',1,'Scene']]],
+  ['getinput',['GetInput',['../class_game_manager.html#ac227cf3926f59e4c2bf6420bfd1a90e6',1,'GameManager']]],
+  ['getinstance',['GetInstance',['../class_game_manager.html#ad2f647253a04cdf60e3bff6fede8a30b',1,'GameManager::GetInstance()'],['../class_net_work_manager.html#ad2c1d65fe860b96f27cd754618740654',1,'NetWorkManager::GetInstance()'],['../class_scene.html#aa0000b4d56229722e7aa8c151ad02a4f',1,'Scene::GetInstance()']]],
+  ['getpoints',['GetPoints',['../class_net_work_manager.html#a2dfa1d0f5846f68929986367afb2f27d',1,'NetWorkManager::GetPoints()'],['../class_scene.html#a59803cc75dca996bd66d6acdaa99df76',1,'Scene::GetPoints()']]],
+  ['getposition',['GetPosition',['../class_object.html#aba86413210bc4e303fde370cad8ab9fe',1,'Object']]],
+  ['getrotation',['GetRotation',['../class_object.html#a24a504120a478e781b9a8128720f8770',1,'Object']]],
+  ['getscene',['GetScene',['../class_scene.html#a442dd94af5bd4ee544c929832f4eed6a',1,'Scene']]],
+  ['getscoretext',['GetScoreText',['../class_scene.html#ae0de17df8ca6fd97d47824be1f9e7634',1,'Scene']]],
+  ['getwindow',['GetWindow',['../class_game_manager.html#a27a899cc5544c30719e8b57ae93d7ffc',1,'GameManager']]],
+  ['getworld',['GetWorld',['../class_game_manager.html#a41d7c3afcf14f85e3716210e06b2ef20',1,'GameManager']]],
+  ['ground',['Ground',['../class_ground.html#a8710ce641b9a630ebae69637159e2354',1,'Ground']]]
+];

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['index',['Index',['../class_net_player.html#ac5eef0177a8500703903df1280834d67',1,'NetPlayer']]],
+  ['information',['Information',['../class_net_work_manager.html#a0bead5f17fd244e7a97c49f1cd081ba5',1,'NetWorkManager']]],
+  ['ingamename',['InGameName',['../class_scene.html#a933b81b9c2f1023cbc7a5a07e3f32fc7',1,'Scene']]],
+  ['ingamenametext',['InGameNameText',['../class_scene.html#a5ab29d6ee8177b400174177a61169b5f',1,'Scene']]],
+  ['ingameotheruserspointstext1',['InGameOtherUsersPointsText1',['../class_scene.html#a6fdf0dc1fd4bc12c2bc8933f9e821d45',1,'Scene']]],
+  ['ingameotheruserspointstext2',['InGameOtherUsersPointsText2',['../class_scene.html#aed6894b4cb258d6acf8f26d1242f4684',1,'Scene']]],
+  ['ingameotheruserspointstext3',['InGameOtherUsersPointsText3',['../class_scene.html#af38a4226d50df64037b4d351751fce8c',1,'Scene']]],
+  ['ingameotheruserspointstext4',['InGameOtherUsersPointsText4',['../class_scene.html#a82027fe8571432fe3548ef410a187e29',1,'Scene']]],
+  ['inputvalue',['InputValue',['../class_object.html#abb13fcf3d7eb007673019f304d83c0ce',1,'Object']]],
+  ['instance',['Instance',['../class_game_manager.html#a8f823a490b0110b09be5bd8badbf792a',1,'GameManager::Instance()'],['../class_net_work_manager.html#a5b180de3c5674bf1125342f563645243',1,'NetWorkManager::Instance()'],['../class_scene.html#a3dee4192d331756bcac00273b46b22bc',1,'Scene::Instance()']]],
+  ['ip',['IP',['../class_net_work_manager.html#a19db3335e4328c5c01dcbbd22346d7a1',1,'NetWorkManager']]],
+  ['isapressed',['IsAPressed',['../class_player.html#a0db9d1d1eca744553f298f9a6b858985',1,'Player']]],
+  ['iscapture',['IsCapture',['../class_coin.html#a4a5f701e25d7c98577af66a3de491946',1,'Coin']]],
+  ['isdpressed',['IsDPressed',['../class_player.html#a9cd46c1428e2a6fb38916a40ee5ef548',1,'Player']]],
+  ['isjumping',['IsJumping',['../class_player.html#ac5df350bc9cfeff679e7e47392d120d9',1,'Player']]],
+  ['iskilled',['IsKilled',['../class_player.html#a556019631efc3e7281bd3f9534f23ecd',1,'Player']]],
+  ['isspacepressed',['IsSpacePressed',['../class_player.html#ac6445d1f4bc026b52af1b8ce34bb34c1',1,'Player']]]
+];

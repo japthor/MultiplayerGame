@@ -1,0 +1,105 @@
+\hypertarget{class_object}{}\section{Object Class Reference}
+\label{class_object}\index{Object@{Object}}
+Inheritance diagram for Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_object}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_object_afc4b53523e4e9eb092779843a27268b7}\label{class_object_afc4b53523e4e9eb092779843a27268b7}} 
+\hyperlink{class_object_afc4b53523e4e9eb092779843a27268b7}{Object} (\hyperlink{struct_vec2}{Vec2} position, \hyperlink{struct_vec2}{Vec2} scale, Body\+Type type, float32 density, float32 friction, char $\ast$texture, \hyperlink{struct_vec2}{Vec2} sprite\+Origin)
+\begin{DoxyCompactList}\small\item\em Desstructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_ae8f5483f459e46687bd01e6f9977afd3}\label{class_object_ae8f5483f459e46687bd01e6f9977afd3}} 
+\hyperlink{class_object_ae8f5483f459e46687bd01e6f9977afd3}{$\sim$\+Object} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_a6e723beba2c9606ab36f1f3674a9537b}\label{class_object_a6e723beba2c9606ab36f1f3674a9537b}} 
+virtual void \hyperlink{class_object_a6e723beba2c9606ab36f1f3674a9537b}{Init} ()
+\begin{DoxyCompactList}\small\item\em Init. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_a5a3159b7d5a34c17b9153d72b92ab86d}\label{class_object_a5a3159b7d5a34c17b9153d72b92ab86d}} 
+virtual void \hyperlink{class_object_a5a3159b7d5a34c17b9153d72b92ab86d}{Input} ()
+\begin{DoxyCompactList}\small\item\em Input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_a43f83b38b0497fed04842e7894751206}\label{class_object_a43f83b38b0497fed04842e7894751206}} 
+virtual void \hyperlink{class_object_a43f83b38b0497fed04842e7894751206}{Update} ()
+\begin{DoxyCompactList}\small\item\em Update. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_a0af60ea226dcb885e69483452d34a47a}\label{class_object_a0af60ea226dcb885e69483452d34a47a}} 
+virtual void \hyperlink{class_object_a0af60ea226dcb885e69483452d34a47a}{Collision} (\hyperlink{class_object}{Object} $\ast$instigator)
+\begin{DoxyCompactList}\small\item\em Collision. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_a9ebf9ef807739f25a04711b90eb82176}\label{class_object_a9ebf9ef807739f25a04711b90eb82176}} 
+virtual Define\+Type \hyperlink{class_object_a9ebf9ef807739f25a04711b90eb82176}{get\+Define\+Type} ()
+\begin{DoxyCompactList}\small\item\em Type of \hyperlink{class_object}{Object}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_ad0c9d66295332df63702940065dbe029}\label{class_object_ad0c9d66295332df63702940065dbe029}} 
+virtual void \hyperlink{class_object_ad0c9d66295332df63702940065dbe029}{Reset} ()
+\begin{DoxyCompactList}\small\item\em Reset. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_a2199afbf2f52ff746c4c871e434ff20f}\label{class_object_a2199afbf2f52ff746c4c871e434ff20f}} 
+void \hyperlink{class_object_a2199afbf2f52ff746c4c871e434ff20f}{Render} ()
+\begin{DoxyCompactList}\small\item\em Render. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_object_a629453451f52924956cf615606a59471}\label{class_object_a629453451f52924956cf615606a59471}} 
+b2\+Body $\ast$ \hyperlink{class_object_a629453451f52924956cf615606a59471}{Body}
+\begin{DoxyCompactList}\small\item\em Body. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_object_aba86413210bc4e303fde370cad8ab9fe}\label{class_object_aba86413210bc4e303fde370cad8ab9fe}} 
+\hyperlink{struct_vec2}{Vec2} \hyperlink{class_object_aba86413210bc4e303fde370cad8ab9fe}{Get\+Position} ()
+\begin{DoxyCompactList}\small\item\em Get Position. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_a24a504120a478e781b9a8128720f8770}\label{class_object_a24a504120a478e781b9a8128720f8770}} 
+float32 \hyperlink{class_object_a24a504120a478e781b9a8128720f8770}{Get\+Rotation} ()
+\begin{DoxyCompactList}\small\item\em Get Rotation. \end{DoxyCompactList}\item 
+void \hyperlink{class_object_a988d9f95eabf06b573b55ad9bce044f6}{Set\+Position} (\hyperlink{struct_vec2}{Vec2} pos, float32 angle)
+\item 
+void \hyperlink{class_object_a9d94650613651d0f08c27e5ba64cef8f}{Set\+Rotation} (float32 rot)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_object_a6576de27eb814a84d0d4abd87c5960a6}\label{class_object_a6576de27eb814a84d0d4abd87c5960a6}} 
+sf\+::\+Texture \hyperlink{class_object_a6576de27eb814a84d0d4abd87c5960a6}{Texture}
+\begin{DoxyCompactList}\small\item\em Texture. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_ae594af01bacdba53a1080ec5fba7a6ff}\label{class_object_ae594af01bacdba53a1080ec5fba7a6ff}} 
+sf\+::\+Sprite \hyperlink{class_object_ae594af01bacdba53a1080ec5fba7a6ff}{Last\+Sprite}
+\begin{DoxyCompactList}\small\item\em Sprite. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_af1a4abf4061dfb1113ea703757b33efe}\label{class_object_af1a4abf4061dfb1113ea703757b33efe}} 
+b2\+Vec2 \hyperlink{class_object_af1a4abf4061dfb1113ea703757b33efe}{Sprite\+Origin}
+\begin{DoxyCompactList}\small\item\em Position Sprite. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_abb13fcf3d7eb007673019f304d83c0ce}\label{class_object_abb13fcf3d7eb007673019f304d83c0ce}} 
+float32 \hyperlink{class_object_abb13fcf3d7eb007673019f304d83c0ce}{Input\+Value}
+\begin{DoxyCompactList}\small\item\em Input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_object_a2c39ecbd711c02cae7408d25a665446f}\label{class_object_a2c39ecbd711c02cae7408d25a665446f}} 
+\hyperlink{class_collision_call_back}{Collision\+Call\+Back} \hyperlink{class_object_a2c39ecbd711c02cae7408d25a665446f}{Collision\+Call\+Back}
+\begin{DoxyCompactList}\small\item\em Collision Call\+Back. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_object_a988d9f95eabf06b573b55ad9bce044f6}\label{class_object_a988d9f95eabf06b573b55ad9bce044f6}} 
+\index{Object@{Object}!Set\+Position@{Set\+Position}}
+\index{Set\+Position@{Set\+Position}!Object@{Object}}
+\subsubsection{\texorpdfstring{Set\+Position()}{SetPosition()}}
+{\footnotesize\ttfamily void Object\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\hyperlink{struct_vec2}{Vec2}}]{pos,  }\item[{float32}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Set a position 
+\begin{DoxyParams}{Parameters}
+{\em pos} & x and y.  angle. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_object_a9d94650613651d0f08c27e5ba64cef8f}\label{class_object_a9d94650613651d0f08c27e5ba64cef8f}} 
+\index{Object@{Object}!Set\+Rotation@{Set\+Rotation}}
+\index{Set\+Rotation@{Set\+Rotation}!Object@{Object}}
+\subsubsection{\texorpdfstring{Set\+Rotation()}{SetRotation()}}
+{\footnotesize\ttfamily void Object\+::\+Set\+Rotation (\begin{DoxyParamCaption}\item[{float32}]{rot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Set a rotation 
+\begin{DoxyParams}{Parameters}
+{\em rot} & rotation. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Multiplayer/include/object.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,82 @@
+\hypertarget{class_player}{}\section{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+Inheritance diagram for Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_a749d2c00e1fe0f5c2746f7505a58c062}\label{class_player_a749d2c00e1fe0f5c2746f7505a58c062}} 
+\hyperlink{class_player_a749d2c00e1fe0f5c2746f7505a58c062}{$\sim$\+Player} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a14a4e703b6b79c276ce7ab140f0845ea}\label{class_player_a14a4e703b6b79c276ce7ab140f0845ea}} 
+\hyperlink{class_player_a14a4e703b6b79c276ce7ab140f0845ea}{Player} (\hyperlink{struct_vec2}{Vec2} position, \hyperlink{struct_vec2}{Vec2} scale, Body\+Type type, float32 density, float32 friction, char $\ast$texture, \hyperlink{struct_vec2}{Vec2} sprite\+Origin)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_af64df6bf1ab0c29d140dd6303262d72f}\label{class_player_af64df6bf1ab0c29d140dd6303262d72f}} 
+virtual void \hyperlink{class_player_af64df6bf1ab0c29d140dd6303262d72f}{Init} () override
+\begin{DoxyCompactList}\small\item\em Init. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a627395e12f5cff3da2c1c9c4395bb0b9}\label{class_player_a627395e12f5cff3da2c1c9c4395bb0b9}} 
+virtual void \hyperlink{class_player_a627395e12f5cff3da2c1c9c4395bb0b9}{Input} () override
+\begin{DoxyCompactList}\small\item\em Input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a26be3456a62fc667bb4b3adb4ed77233}\label{class_player_a26be3456a62fc667bb4b3adb4ed77233}} 
+virtual void \hyperlink{class_player_a26be3456a62fc667bb4b3adb4ed77233}{Update} () override
+\begin{DoxyCompactList}\small\item\em Update. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_player_ac2e2422e1637707ed0a032f17392b16b}{Collision} (\hyperlink{class_object}{Object} $\ast$instigator) override
+\item 
+\mbox{\Hypertarget{class_player_a62d6a7a079668c0881910dc5e1b7b071}\label{class_player_a62d6a7a079668c0881910dc5e1b7b071}} 
+virtual void \hyperlink{class_player_a62d6a7a079668c0881910dc5e1b7b071}{Reset} () override
+\begin{DoxyCompactList}\small\item\em Reset. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a0c74d6bd430490417bb34e9abc233bb7}\label{class_player_a0c74d6bd430490417bb34e9abc233bb7}} 
+void \hyperlink{class_player_a0c74d6bd430490417bb34e9abc233bb7}{Kill} ()
+\begin{DoxyCompactList}\small\item\em Kill. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_acdc10d7536a824e02d72d5a5b77875b1}\label{class_player_acdc10d7536a824e02d72d5a5b77875b1}} 
+virtual Define\+Type \hyperlink{class_player_acdc10d7536a824e02d72d5a5b77875b1}{get\+Define\+Type} () override
+\begin{DoxyCompactList}\small\item\em Type of \hyperlink{class_object}{Object}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a879e5feedffe7445c172968c6084aa54}\label{class_player_a879e5feedffe7445c172968c6084aa54}} 
+void \hyperlink{class_player_a879e5feedffe7445c172968c6084aa54}{Disappear} ()
+\begin{DoxyCompactList}\small\item\em Disappear if somebody disconnects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_a9cd46c1428e2a6fb38916a40ee5ef548}\label{class_player_a9cd46c1428e2a6fb38916a40ee5ef548}} 
+bool \hyperlink{class_player_a9cd46c1428e2a6fb38916a40ee5ef548}{Is\+D\+Pressed}
+\begin{DoxyCompactList}\small\item\em Is pressing D. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a0db9d1d1eca744553f298f9a6b858985}\label{class_player_a0db9d1d1eca744553f298f9a6b858985}} 
+bool \hyperlink{class_player_a0db9d1d1eca744553f298f9a6b858985}{Is\+A\+Pressed}
+\begin{DoxyCompactList}\small\item\em Is pressing A. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_ac6445d1f4bc026b52af1b8ce34bb34c1}\label{class_player_ac6445d1f4bc026b52af1b8ce34bb34c1}} 
+bool \hyperlink{class_player_ac6445d1f4bc026b52af1b8ce34bb34c1}{Is\+Space\+Pressed}
+\begin{DoxyCompactList}\small\item\em Is pressing Space. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_ac5df350bc9cfeff679e7e47392d120d9}\label{class_player_ac5df350bc9cfeff679e7e47392d120d9}} 
+bool \hyperlink{class_player_ac5df350bc9cfeff679e7e47392d120d9}{Is\+Jumping}
+\begin{DoxyCompactList}\small\item\em Is pressing Jump. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a556019631efc3e7281bd3f9534f23ecd}\label{class_player_a556019631efc3e7281bd3f9534f23ecd}} 
+bool \hyperlink{class_player_a556019631efc3e7281bd3f9534f23ecd}{Is\+Killed}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_player}{Player} has been killed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_ac2e2422e1637707ed0a032f17392b16b}\label{class_player_ac2e2422e1637707ed0a032f17392b16b}} 
+\index{Player@{Player}!Collision@{Collision}}
+\index{Collision@{Collision}!Player@{Player}}
+\subsubsection{\texorpdfstring{Collision()}{Collision()}}
+{\footnotesize\ttfamily virtual void Player\+::\+Collision (\begin{DoxyParamCaption}\item[{\hyperlink{class_object}{Object} $\ast$}]{instigator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Collision with other objects 
+\begin{DoxyParams}{Parameters}
+{\em instigator} & Objects name to collide with. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_object_a0af60ea226dcb885e69483452d34a47a}{Object}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Multiplayer/include/player.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,55 @@
+\hypertarget{class_platform}{}\section{Platform Class Reference}
+\label{class_platform}\index{Platform@{Platform}}
+Inheritance diagram for Platform\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_platform}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_platform_a13b5e4ef946b8a2fe38d22014145ab68}\label{class_platform_a13b5e4ef946b8a2fe38d22014145ab68}} 
+\hyperlink{class_platform_a13b5e4ef946b8a2fe38d22014145ab68}{$\sim$\+Platform} ()
+\begin{DoxyCompactList}\small\item\em Desstructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_platform_a183e85f66c60e8132fcc039b1d34f2c0}\label{class_platform_a183e85f66c60e8132fcc039b1d34f2c0}} 
+\hyperlink{class_platform_a183e85f66c60e8132fcc039b1d34f2c0}{Platform} (\hyperlink{struct_vec2}{Vec2} position, \hyperlink{struct_vec2}{Vec2} scale, Body\+Type type, float32 density, float32 friction, char $\ast$texture, \hyperlink{struct_vec2}{Vec2} sprite\+Origin)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_platform_a25f2e984268e9bf078749e84e7166e61}\label{class_platform_a25f2e984268e9bf078749e84e7166e61}} 
+virtual void \hyperlink{class_platform_a25f2e984268e9bf078749e84e7166e61}{Init} () override
+\begin{DoxyCompactList}\small\item\em Init. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_platform_a4151ba122d6605f575364f4f5bdbf56a}\label{class_platform_a4151ba122d6605f575364f4f5bdbf56a}} 
+virtual void \hyperlink{class_platform_a4151ba122d6605f575364f4f5bdbf56a}{Input} () override
+\begin{DoxyCompactList}\small\item\em Input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_platform_a97a2696402d99af7f326ed1f238501c3}\label{class_platform_a97a2696402d99af7f326ed1f238501c3}} 
+virtual void \hyperlink{class_platform_a97a2696402d99af7f326ed1f238501c3}{Update} () override
+\begin{DoxyCompactList}\small\item\em Update. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_platform_abc610ede94941cb4c8423555f8faee13}{Collision} (\hyperlink{class_object}{Object} $\ast$instigator) override
+\item 
+\mbox{\Hypertarget{class_platform_a4c4b277e82cf60185806779f7bdc01ab}\label{class_platform_a4c4b277e82cf60185806779f7bdc01ab}} 
+virtual Define\+Type \hyperlink{class_platform_a4c4b277e82cf60185806779f7bdc01ab}{get\+Define\+Type} () override
+\begin{DoxyCompactList}\small\item\em Type of object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_platform_abc610ede94941cb4c8423555f8faee13}\label{class_platform_abc610ede94941cb4c8423555f8faee13}} 
+\index{Platform@{Platform}!Collision@{Collision}}
+\index{Collision@{Collision}!Platform@{Platform}}
+\subsubsection{\texorpdfstring{Collision()}{Collision()}}
+{\footnotesize\ttfamily virtual void Platform\+::\+Collision (\begin{DoxyParamCaption}\item[{\hyperlink{class_object}{Object} $\ast$}]{instigator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Collision with other objects 
+\begin{DoxyParams}{Parameters}
+{\em instigator} & Objects name to collide with. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_object_a0af60ea226dcb885e69483452d34a47a}{Object}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Multiplayer/include/platform.\+h\end{DoxyCompactItemize}

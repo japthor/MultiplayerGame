@@ -1,0 +1,64 @@
+\hypertarget{class_spike_box}{}\section{Spike\+Box Class Reference}
+\label{class_spike_box}\index{Spike\+Box@{Spike\+Box}}
+Inheritance diagram for Spike\+Box\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_spike_box}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_spike_box_a1bb832d0bb94295c3bb3e3276146820e}\label{class_spike_box_a1bb832d0bb94295c3bb3e3276146820e}} 
+\hyperlink{class_spike_box_a1bb832d0bb94295c3bb3e3276146820e}{$\sim$\+Spike\+Box} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_spike_box_a7b3d5638f34943470a0045881ea78085}\label{class_spike_box_a7b3d5638f34943470a0045881ea78085}} 
+\hyperlink{class_spike_box_a7b3d5638f34943470a0045881ea78085}{Spike\+Box} (\hyperlink{struct_vec2}{Vec2} position, \hyperlink{struct_vec2}{Vec2} scale, Body\+Type type, float32 density, float32 friction, char $\ast$texture, \hyperlink{struct_vec2}{Vec2} sprite\+Origin)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_spike_box_acff57f058cc8c29110fc52bc1ac66c0d}\label{class_spike_box_acff57f058cc8c29110fc52bc1ac66c0d}} 
+virtual void \hyperlink{class_spike_box_acff57f058cc8c29110fc52bc1ac66c0d}{Init} () override
+\begin{DoxyCompactList}\small\item\em Init. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_spike_box_a76956f8a2c3071869c851f77b396aa38}\label{class_spike_box_a76956f8a2c3071869c851f77b396aa38}} 
+virtual void \hyperlink{class_spike_box_a76956f8a2c3071869c851f77b396aa38}{Input} () override
+\begin{DoxyCompactList}\small\item\em Input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_spike_box_a546f46c449d79576a6dd364dd28f08e6}\label{class_spike_box_a546f46c449d79576a6dd364dd28f08e6}} 
+virtual void \hyperlink{class_spike_box_a546f46c449d79576a6dd364dd28f08e6}{Update} () override
+\begin{DoxyCompactList}\small\item\em Update. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_spike_box_a367ab98224d87535dcd037ee46de2231}\label{class_spike_box_a367ab98224d87535dcd037ee46de2231}} 
+virtual void \hyperlink{class_spike_box_a367ab98224d87535dcd037ee46de2231}{Reset} () override
+\begin{DoxyCompactList}\small\item\em Reset. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_spike_box_a538790d5fe1e7619d693659f1e14cc44}{Collision} (\hyperlink{class_object}{Object} $\ast$instigator) override
+\item 
+\mbox{\Hypertarget{class_spike_box_a55e11ae1fdb92e34e384dc4ee00cd805}\label{class_spike_box_a55e11ae1fdb92e34e384dc4ee00cd805}} 
+virtual Define\+Type \hyperlink{class_spike_box_a55e11ae1fdb92e34e384dc4ee00cd805}{get\+Define\+Type} () override
+\begin{DoxyCompactList}\small\item\em Type of object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_spike_box_af38562c097cdb89864ceced7647dad89}\label{class_spike_box_af38562c097cdb89864ceced7647dad89}} 
+int \hyperlink{class_spike_box_af38562c097cdb89864ceced7647dad89}{Change\+VelocityX}
+\begin{DoxyCompactList}\small\item\em Velocity X. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_spike_box_a538790d5fe1e7619d693659f1e14cc44}\label{class_spike_box_a538790d5fe1e7619d693659f1e14cc44}} 
+\index{Spike\+Box@{Spike\+Box}!Collision@{Collision}}
+\index{Collision@{Collision}!Spike\+Box@{Spike\+Box}}
+\subsubsection{\texorpdfstring{Collision()}{Collision()}}
+{\footnotesize\ttfamily virtual void Spike\+Box\+::\+Collision (\begin{DoxyParamCaption}\item[{\hyperlink{class_object}{Object} $\ast$}]{instigator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Collision with other objects 
+\begin{DoxyParams}{Parameters}
+{\em instigator} & Objects name to collide with. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_object_a0af60ea226dcb885e69483452d34a47a}{Object}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Multiplayer/include/spikebox.\+h\end{DoxyCompactItemize}

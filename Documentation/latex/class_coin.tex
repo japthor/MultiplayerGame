@@ -1,0 +1,70 @@
+\hypertarget{class_coin}{}\section{Coin Class Reference}
+\label{class_coin}\index{Coin@{Coin}}
+Inheritance diagram for Coin\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_coin}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_coin_ad0371a6d98c194a0f6de615206829b16}\label{class_coin_ad0371a6d98c194a0f6de615206829b16}} 
+\hyperlink{class_coin_ad0371a6d98c194a0f6de615206829b16}{$\sim$\+Coin} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_coin_ace98dea331520b1bdd75213da9765b63}\label{class_coin_ace98dea331520b1bdd75213da9765b63}} 
+\hyperlink{class_coin_ace98dea331520b1bdd75213da9765b63}{Coin} (\hyperlink{struct_vec2}{Vec2} position, \hyperlink{struct_vec2}{Vec2} scale, Body\+Type type, float32 density, float32 friction, char $\ast$texture, \hyperlink{struct_vec2}{Vec2} sprite\+Origin)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_coin_abe676fdd24be69f9b605a59076d5a90d}\label{class_coin_abe676fdd24be69f9b605a59076d5a90d}} 
+virtual void \hyperlink{class_coin_abe676fdd24be69f9b605a59076d5a90d}{Init} () override
+\begin{DoxyCompactList}\small\item\em Init. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_coin_a13e1d3025965f73a63e34e9c6a21d8e0}\label{class_coin_a13e1d3025965f73a63e34e9c6a21d8e0}} 
+virtual void \hyperlink{class_coin_a13e1d3025965f73a63e34e9c6a21d8e0}{Input} () override
+\begin{DoxyCompactList}\small\item\em Input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_coin_a3638832a26fc17f40d04e8e590cf9963}\label{class_coin_a3638832a26fc17f40d04e8e590cf9963}} 
+virtual void \hyperlink{class_coin_a3638832a26fc17f40d04e8e590cf9963}{Update} () override
+\begin{DoxyCompactList}\small\item\em Update. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_coin_a4fbc44581a02121f6c4e6b93b493175d}\label{class_coin_a4fbc44581a02121f6c4e6b93b493175d}} 
+virtual void \hyperlink{class_coin_a4fbc44581a02121f6c4e6b93b493175d}{Reset} () override
+\begin{DoxyCompactList}\small\item\em Reset. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_coin_aa6b47cadab21693854c2c4f8266a5ac1}{Collision} (\hyperlink{class_object}{Object} $\ast$instigator) override
+\item 
+\mbox{\Hypertarget{class_coin_af2b1a914f49d5fcaf5b2c1ce74d5b065}\label{class_coin_af2b1a914f49d5fcaf5b2c1ce74d5b065}} 
+virtual Define\+Type \hyperlink{class_coin_af2b1a914f49d5fcaf5b2c1ce74d5b065}{get\+Define\+Type} () override
+\begin{DoxyCompactList}\small\item\em Type of object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_coin_a599acd6db3cba922df144bad324a1b19}\label{class_coin_a599acd6db3cba922df144bad324a1b19}} 
+void \hyperlink{class_coin_a599acd6db3cba922df144bad324a1b19}{Move} ()
+\begin{DoxyCompactList}\small\item\em Move. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_coin_a4a5f701e25d7c98577af66a3de491946}\label{class_coin_a4a5f701e25d7c98577af66a3de491946}} 
+bool \hyperlink{class_coin_a4a5f701e25d7c98577af66a3de491946}{Is\+Capture}
+\begin{DoxyCompactList}\small\item\em Control if somebody capture the coin. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_coin_a7ab98ec00c278f1e4adb0e0988b10cf2}\label{class_coin_a7ab98ec00c278f1e4adb0e0988b10cf2}} 
+int \hyperlink{class_coin_a7ab98ec00c278f1e4adb0e0988b10cf2}{Where\+To\+Move}
+\begin{DoxyCompactList}\small\item\em Random for next position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_coin_aa6b47cadab21693854c2c4f8266a5ac1}\label{class_coin_aa6b47cadab21693854c2c4f8266a5ac1}} 
+\index{Coin@{Coin}!Collision@{Collision}}
+\index{Collision@{Collision}!Coin@{Coin}}
+\subsubsection{\texorpdfstring{Collision()}{Collision()}}
+{\footnotesize\ttfamily virtual void Coin\+::\+Collision (\begin{DoxyParamCaption}\item[{\hyperlink{class_object}{Object} $\ast$}]{instigator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Collision with other objects 
+\begin{DoxyParams}{Parameters}
+{\em instigator} & Objects name to collide with. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_object_a0af60ea226dcb885e69483452d34a47a}{Object}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Multiplayer/include/coin.\+h\end{DoxyCompactItemize}
