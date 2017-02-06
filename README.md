@@ -17,3 +17,5 @@ Jump with Space Bar.
 Try to catch coins.
 If you collide with the SpikeBox you will lose 3 coins.
 The first to obtain 10 coins wins.
+
+Version for Windows: https://drive.google.com/open?id=0B2EIeIXwQ9wLSnBTUFJ4NU11TzA
