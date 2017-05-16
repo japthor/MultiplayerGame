@@ -10,4 +10,4 @@ Instructions: Run the Server, it will give you an IP. Execute the game, add the 
 
 GamePlay: Move the orange character with A and D. Jump with Space Bar. Try to catch coins. If you collide with the SpikeBox, you will lose three coins. The first to obtain ten coins wins.
 
-Version for Windows: https://drive.google.com/open?id=0B2EIeIXwQ9wLSnBTUFJ4NU11TzA with visual studio 2015.
+Version for Windows: https://bitbucket.org/Japtor/multiplayer-and-social-games/src with visual studio 2015.
